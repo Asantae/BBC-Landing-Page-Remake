@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar and Properties */
+
+header {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 1px solid white;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: white;
+    
+    border: 1px solid white;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    padding-left: 3px;
+}
+
+/* Main Site Information */
+
+.main-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.smaller-images-main {
+    position: relative;
+}
+
+.upper {
+    flex-wrap: wrap;
+    position: absolute;
+    color: white;
+}
+
+.info-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-photos {
+    align-self: center;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.left-photo {
+    width: 450px;
+}
+
+.image-fit {
+    width: 550px;
+}
+
+.fit-image {
+    height: 160px;
+    width: 300px;
+}
+
+.page-intro, .secondary-info {
+    margin-bottom: 40px;
+    height: 45%;
+}
+
+.page-intro {
+    justify-content: space-around;
+}
+
+.secondary-info-column {
+    flex-direction: column;
+}
+
+span {
+    text-transform: uppercase;
+    border-left: 2px solid red;
+    height:min-content;
+    padding-left: 5px;
+}
