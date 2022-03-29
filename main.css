@@ -80,12 +80,14 @@ section {
 }
 
 .image-fit {
-    width: 550px;
+    width: 750px;
+    
 }
 
 .fit-image {
-    height: 160px;
+    height: 219px;
     width: 300px;
+    padding: 5px;
 }
 
 .page-intro, .secondary-info {
@@ -94,7 +96,8 @@ section {
 }
 
 .page-intro {
-    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
 }
 
 .secondary-info-column {
