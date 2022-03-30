@@ -113,6 +113,13 @@ section {
     flex-direction: column;
 }
 
+.upper {
+    
+    margin-left: 5px;
+}
+
+
+
 span {
     text-transform: uppercase;
     border-left: 2px solid red;
